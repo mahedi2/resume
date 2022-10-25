@@ -39,16 +39,29 @@
 		$('body').terminal({
 			iam: function (name) {
 				this.echo('Hello, ' + name +
-					'. Welcome to GeeksForGeeks');
+					'. Welcome to Crazy Idea');
 			},
 			founder: function () {
-				this.echo('Sandeep Jain');
+				this.echo('Mahedi Hasan Tamim');
+				},
+		        },
+			sm: function () {
+				this.echo('https://facebook.com/mahedi.tamim.x'
+				+ 'https://instagram.com/mahedi.hasan.z'
+				+ 'https://wa.me/8801768012614');
+				},
+		       },
+				socialmedia: function () {
+				this.echo('https://facebook.com/mahedi.tamim.x'
+				+ 'https://instagram.com/mahedi.hasan.z'
+				+ 'https://wa.me/8801768012614');
+			        },
 			},
 			help: function () {
-				this.echo('iam - iam command and '
-				+ 'pass your name as argument\n'
-				+ 'founder to know the founder');
-			},
+				this.echo('iam-Your name - EX- iam Mahedi'
+				+ 'socialmedia or sm - find all social media links'
+				+ 'founder - to know the founder');
+			        },
 		}, {
 			greetings: 'Crazy Idea - A place to'
 				+ ' find you, Me and Me! '
